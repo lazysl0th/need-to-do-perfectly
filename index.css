@@ -8,6 +8,7 @@
 
 .content {
     display: flex;
+    margin: auto;
     height: 100%;
     max-width: 1600px;
     min-width: 800px;

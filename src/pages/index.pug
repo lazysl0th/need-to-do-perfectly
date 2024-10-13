@@ -1,0 +1,9 @@
+extends ../layouts/default
+
+block variables 
+  - var pageStylesheet = "./index.css";
+
+block content
+    body.content
+        video(class="content--video", src="./videos/cover-video.mp4", autoplay, loop, muted, poster="./images/poster.png", type="video/mp4")
+        h1(class="content--title") Надо сделать идеально

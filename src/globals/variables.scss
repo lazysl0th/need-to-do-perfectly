@@ -1,0 +1,31 @@
+$main-font: 'Raleway';
+$main-font-variable: 'RalewayVariable';
+$font-weight: 400;
+$accent-font-weight: 800;
+
+$white-color: #fff;
+$black-color: #000000;
+$gray-color: #f5f5f5;
+$dark-gray-color: #4c4c4c;
+
+:root {
+  /* шрифт */
+  --main-font: #{$main-font};
+  --font-weight: #{$font-weight};
+  --accent-font-weight: #{$accent-font-weight};
+  /* цвет */
+  --text-color: #{$black-color};
+  --bg-color: #{$gray-color};
+  --bg-content-color: #{$white-color};
+  --popup-text-color: #{$dark-gray-color};
+
+
+  block-size: 100%;
+  background-color: var(--bg-color);
+
+  @supports (font-variation-settings: normal) {
+    --main-font: #{$main-font-variable};
+
+    font-variation-settings: 'wght' var(--main-font-weight);
+  }
+}

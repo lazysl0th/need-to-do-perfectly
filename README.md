@@ -4,4 +4,6 @@
 
 Используемые технологии HTML5 и CSS3.
 
+Используемые шаблонизаторы PUG и SCSS.
+
 Ссылка на проект: https://lazysl0th.github.io/need-to-do-perfectly/
